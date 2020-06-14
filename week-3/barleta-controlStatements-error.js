@@ -3,7 +3,7 @@
 ; Title:  controlStatements-error.js
 ; Author: Marie Nicole Barleta
 ; Date:   9 June 2020
-; Modified By:
+; Modified By: Devan Wong
 ; Description: Find the error
 ;===========================================
 */
@@ -28,12 +28,12 @@ Expected Output:
 
 //Start of code
 
-for (var i=1; i <= 5; i+){
+for (var i=1; i <= 5; i++){
   if (num % 2 != 0){
-    console.log(num + " is odd");
+    console.log(i + " is odd");
   }
-  elseif {
-    console.log(x + " is even");
+  else {
+    console.log(i + " is even");
   }
 }
 
